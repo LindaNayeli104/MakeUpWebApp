@@ -20,7 +20,7 @@
 html, body{
     padding:0px;
     margin:0px;
-    font-size:var(--normal);
+    font-size: 15px;
     font-family: 'Open Sans', sans-serif;;
 }
 
@@ -56,7 +56,7 @@ nav li a:hover{
 /* --------------------------------------------------Main section */
 
 .main_section{
-    padding: 10%;
+    padding: 8%;
     text-align: center;
 }
 
@@ -120,4 +120,61 @@ nav li a:hover{
 .img_feature{
     text-align: center;
 }
+
+
+/*--------------------------------------------------Packages*/
+
+.break-line{
+    color: gray;
+}
+
+
+.packages-title{
+    font-size: large;
+    text-align: center;
+  
+    padding: 1%;
+    margin: 1%;
+}
+
+
+.packages{
+    padding: 10%;
+    display: flex;
+}
+
+
+.package{
+    padding: var(--space);
+    margin-top: px;
+}
+
+
+.package-content{
+    background-color: var(--white-color);
+    padding: var(--space);
+    box-shadow: var(--box);
+}
+
+
+.img-package{
+    text-align: center;
+}
+
+.package_button{
+    background-color: var(--pinkSolid-color);
+    width: 100%;
+    padding: var(--space);
+    font-size: 17px;
+    color: var(--white-color);
+    border: 0;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.package_button:hover{
+    background-color: var(--pinkLight-color);
+}
+
+
 
