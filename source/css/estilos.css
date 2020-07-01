@@ -52,6 +52,11 @@ nav li a:hover{
     color: var(--pinkSolid-color);
 }
 
+label{
+    font-size: var(--normal);
+    padding-bottom: var(--space);
+}
+
 
 /* --------------------------------------------------Main section */
 
@@ -175,7 +180,38 @@ nav li a:hover{
     background-color: var(--pinkLight-color);
 }
 
-/*------------------------------------------- Footer */
+/*------------------------------------------------- Venta*/
+
+.modulo_pago{
+    background-color: var(--white-color);
+    box-shadow: var(--box);
+    padding: var(--space);
+    
+}
+
+.modulo_pago_images{
+    max-width: 50px;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+.data{
+    margin-top: 10px;
+    width: 100%;
+    height: 35px;
+    border-radius: 2px;
+    border: 1px solid var(--black-color);
+    box-sizing: border-box;
+}
+
+.modulo_pago .main_button{
+    margin-top: 10px;
+}
+
+
+
+/*------------------------------------------------- Footer */
 footer{
   display: flex;
   justify-content: space-between;
