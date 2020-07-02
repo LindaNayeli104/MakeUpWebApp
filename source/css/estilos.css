@@ -221,4 +221,8 @@ footer{
   color: var(--white-color);
 }
 
+.contact a{
+    color: var(--pinkSolid-color);
+}
+
 
